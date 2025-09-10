@@ -32,7 +32,7 @@
 
 header {
   border: 1px solid black;
-  height: 9vh;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -174,5 +174,16 @@ main {
       }
     }
   }
+ }
+
+ .charts {
+  padding: 5%;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+ }
 }
-}
+
